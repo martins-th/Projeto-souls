@@ -1,0 +1,31 @@
+.rodape {
+    background-color: #0B0B0D;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape_descricao {
+    color: var(--cor-branco);
+    font-family: var(--fonte-texto);
+    font-size: var(--tamanho-texto);
+    padding: 2em 4em 2em 0;
+    text-align: left;
+    
+}
+
+.rodape_contato {
+    padding: 2em 4em;
+    
+}
+.rodape_texto {
+    color: var(--cor-branco);
+    font-family: var(--fonte-texto);
+    font-size: var(--tamanho-texto);
+    
+}
+
+.rodape_imagens {
+    width: 50px;
+    height: 50px;
+}

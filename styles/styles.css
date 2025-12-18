@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Lora:ital,wght@0,400..700;1,400..700&family=Metamorphous&display=swap');
+:root {
+    --fonte-titulo: "Metamorphous", serif;
+    --fonte-texto: "Eagle Lake", serif;
+    --cor-branco: #fff;
+    --tamanho-texto: 1.6em;
+    --tamanho-itens: 2em;
+    --tamanho-titulo: 2em;
+    --cor-preto:#000;
+
+}

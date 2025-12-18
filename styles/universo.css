@@ -1,0 +1,60 @@
+.lore-universo {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../img/fundo-abas.jpg);
+    gap: 60px;
+}
+
+.lore-universo_bloco1{
+    background-image: url(../img/universo/background_text.png);
+    object-fit: cover;
+    padding: 2em;
+
+}
+
+.bloco1_titulo {
+    font: var(--fonte-titulo);
+    font-size: var(--tamanho-titulo);
+    padding: 1em 0;
+    text-align: center;
+}
+
+.bloco1_texto {
+    font: var(--fonte-texto);
+    font-size: var(--tamanho-texto);
+}
+.lore-universo_bloco2 {
+    padding: 2em 4em;
+    
+}
+
+.bloco2_titulo {
+    font: var(--fonte-titulo);
+    font-size: var(--tamanho-titulo);
+    color: var(--cor-branco);
+}
+
+.bloco2_link {
+    text-decoration: none;
+}
+
+.bloco2_lista {
+    padding: 2em;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.bloco2_item {
+    font: var(--fonte-texto);
+    font-size: var(--tamanho-texto);
+    padding: 0.5em 0;
+    color: var(--cor-branco);
+    border: 1px solid white;
+    text-align: center;
+}
+
+.bloco2_item:hover {
+    background-color: #421607;
+}

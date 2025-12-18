@@ -1,0 +1,123 @@
+.principal_texto {
+    z-index: 1;
+    font-size: 2em;
+    color: var(--cor-branco);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fonte-titulo);
+    
+}
+
+.principal_fundo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.historia {
+    display: flex;
+    gap: 20px;
+    background-image: url(../img/fundo-abas.jpg);
+    height: 100vh;
+}
+
+.historia > div {
+    flex: 1;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/background.png);
+    margin: 20px;
+}
+
+.historia_imagens {
+    padding-top: 7em;
+    width: 400px;
+    height: 200px;
+}
+
+.historia_titulo {
+    color: var(--cor-preto);
+    font-family: var(--fonte-titulo);
+    font-size: var(--tamanho-titulo);
+    font-weight: 600;
+    padding: 20px 0 0 0;
+}
+
+.historia_texto {
+    color: var(--cor-preto);
+    font-family: var(--fonte-texto);
+    font-size: var(--tamanho-texto);
+    padding: 2.5em 2.4em 4em 2.4em;
+    
+}
+
+.historia_botao {
+    text-decoration: none;
+    color: var(--cor-letra);
+    font-family: var(--fonte-texto);
+    font-size: var(--tamanho-texto);
+    padding: 1em 1.5em;
+    border: 2px solid black;
+}
+
+.historia_botao:hover {
+    color: white;
+    background-color: #421607;
+}
+
+.referencias {
+    background-image: url(../img/fundo-abas.jpg);
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.referencias_bloco {
+    display: flex;
+    align-items: center;
+    gap: 10em;
+    text-align: center;
+}
+
+.referencias_texto {
+    font-family: var(--fonte-texto);
+    font-size: var(--tamanho-titulo);
+    color: var(--cor-branco);
+    text-align: center;
+    position: absolute;
+    padding-top: 3em;
+}
+
+.referencias_imagens {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+.referencias_titulo {
+    font-family: var(--fonte-titulo);
+    font-size: var(--tamanho-titulo);
+    text-align: center;
+    padding: 2em;
+    color: var(--cor-branco);
+}
+
+.referencias_botao {
+    text-decoration: none;
+    color: var(--cor-branco);
+    font-family: var(--fonte-texto);
+    font-size: var(--tamanho-texto);
+    padding: 0.5em 1em;
+    border: 2px solid white;
+}
+
+.referencias_botao:hover {
+    background-color:  #421607;
+}
