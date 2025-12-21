@@ -6,6 +6,36 @@
     
 }
 
+.cabecalho_botao {
+    background-color: var(--cor-preto);
+    color: var(--cor-branco);
+    padding: 10px 15px;
+    font-size: var(--tamanho-itens);
+    font-weight: 500;
+    font-family: var(--fonte-titulo);
+}
+
+.botao1_lista {
+    list-style: none;
+    padding: 0;
+    margin: 10px 15px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    
+}
+
+.cabecalho_botao:hover {
+    background-color: var(--cor-carmesin);
+}
+
+.lista_link:hover {
+    background-color: var(--cor-carmesin);
+}
+.botao1_lista.aberto {
+    max-height: 300px;
+}
+
 .cabecalho_titulo_link {
     text-decoration: none;
     color: var(--cor-branco);
@@ -22,6 +52,15 @@
 
 .cabecalho_itens_link {
     padding: 10px 15px;
+    text-decoration: none;
+    color: var(--cor-branco);
+    font-size: var(--tamanho-itens);
+    font-weight: 500;
+    font-family: var(--fonte-titulo);
+    background-color: var(--cor-preto);
+}
+
+.lista_item {
     text-decoration: none;
     color: var(--cor-branco);
     font-size: var(--tamanho-itens);

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.5">
@@ -12,10 +13,31 @@
 
     <title>Tales of Lordran</title>
 </head>
+
 <body>
     <header class="cabecalho">
         <div class="cabecalho_titulo"><a class="cabecalho_titulo_link" href="index.html">Tales of Lordran</a></div>
-        <div class="cabecalho_itens"><a class="cabecalho_itens_link" href=".">Lore</a> <a class="cabecalho_itens_link" href=".">Fontes</a> <a class="cabecalho_itens_link" href=".">Contatos</a></div>
+        <div class="cabecalho_itens">
+            <div class="dropdown"><button id="btn_cascata1" class="cabecalho_botao">Lores</button>
+                <ul id="menu_lores" class="botao1_lista">
+                    <li class="lista_link"><a class="lista_item" href="./paginas/universo.html">Universo</a></li>
+                    <li class="lista_link"><a class="lista_item" href="./paginas/personagens.html">Personagens</a></li>
+                </ul>
+            </div>
+            <div class="dropdown"><button id="btn_cascata2" class="cabecalho_botao">Fontes</button>
+                <ul id="menu_fontes" class="botao1_lista">
+                    <li class="lista_link"><a class="lista_item" href="https://darksouls.wiki.fextralife.com/Dark+Souls+Wiki"
+                            target="_blank" rel="noopener noreferrer">Wiki</a></li>
+                    <li class="lista_link"><a class="lista_item" href="https://www.youtube.com/@kelnow"
+                            target="_blank" rel="noopener noreferrer">Kelnow</a></li>
+                    <li class="lista_link"><a class="lista_item" href="https://www.youtube.com/@VaatiVidya"
+                            target="_blank" rel="noopener noreferrer">VaatiVidya</a></li>
+                    <li class="lista_link"><a class="lista_item" href="https://www.youtube.com/@CanalERA"
+                            target="_blank" rel="noopener noreferrer">ERA Games</a></li>        
+                </ul>
+            </div>
+            <a class="cabecalho_itens_link" href=".">Contatos</a>
+        </div>
     </header>
     <section class="principal">
         <p class="principal_texto">Em meio a cinza, surge o fogo. A disparidade seria uma benção ou uma maldição?</p>
@@ -28,7 +50,7 @@
         <div class="historia_lore">
             <img class="historia_imagens" src="./img/firelink-shrine.jpg" alt="Foto de Firelink Shrine">
             <h1 class="historia_titulo">Lore do universo</h1>
-            <p class="historia_texto">Tópicos principais, eventos e finais</p> 
+            <p class="historia_texto">Tópicos principais, eventos e finais</p>
             <a class="historia_botao" href="./paginas/universo.html">Explorar</a>
         </div>
         <div class="historia_personagens">
@@ -51,33 +73,45 @@
             <div class="referencias_wiki">
                 <img class="referencias_imagens" src="./img/wiki.png" alt="Logo Dark Souls Wiki">
                 <h1 class="referencias_titulo">Dark Souls Wiki</h1>
-                <a class="referencias_botao" href="https://darksouls.wiki.fextralife.com/Dark+Souls+Wiki" target="_blank" rel="noopener noreferrer">Confira</a>
+                <a class="referencias_botao" href="https://darksouls.wiki.fextralife.com/Dark+Souls+Wiki"
+                    target="_blank" rel="noopener noreferrer">Confira</a>
             </div>
             <div class="referencias_kelnow">
                 <img class="referencias_imagens" src="./img/kelnow.jpg" alt="Logo Kelnow">
                 <h1 class="referencias_titulo">Kelnow</h1>
-                <a class="referencias_botao" href="https://www.youtube.com/@kelnow" target="_blank" rel="noopener noreferrer">Confira</a>            </div>
+                <a class="referencias_botao" href="https://www.youtube.com/@kelnow" target="_blank"
+                    rel="noopener noreferrer">Confira</a>
+            </div>
             <div class="referencias_vaatividya">
                 <img class="referencias_imagens" src="./img/vaatividya.jpg" alt="Logo VaatiVidya">
                 <h1 class="referencias_titulo">VaatiVidya</h1>
-                <a class="referencias_botao" href="https://www.youtube.com/@VaatiVidya" target="_blank" rel="noopener noreferrer">Confira</a>
+                <a class="referencias_botao" href="https://www.youtube.com/@VaatiVidya" target="_blank"
+                    rel="noopener noreferrer">Confira</a>
             </div>
             <div class="referencias_era">
                 <img class="referencias_imagens" src="./img/era_games.jpg" alt="Logo ERA Games">
                 <h1 class="referencias_titulo">ERA Games</h1>
-                <a class="referencias_botao" href="https://www.youtube.com/@CanalERA" target="_blank" rel="noopener noreferrer">Confira</a>
+                <a class="referencias_botao" href="https://www.youtube.com/@CanalERA" target="_blank"
+                    rel="noopener noreferrer">Confira</a>
             </div>
         </div>
     </section>
     <footer class="rodape">
-        <p class="rodape_descricao">Este site foi criado unicamente para fins de estudo. É meu primeiro projeto, então caso <br>tenha tido acesso e possua alguma dica ou melhoria basta entrar em contato. Afinal, provavelmente deve me conhecer.<br><br>"Goodbye then. Be safe, friend. Don't you dare go hollow."</p>
+        <p class="rodape_descricao">Este site foi criado unicamente para fins de estudo. É meu primeiro projeto, então
+            caso <br>tenha tido acesso e possua alguma dica ou melhoria basta entrar em contato. Afinal, provavelmente
+            deve me conhecer.<br><br>"Goodbye then. Be safe, friend. Don't you dare go hollow."</p>
         <div class="rodape_contato">
-        <p class="rodape_texto">Fale conosco</p>
-        <a class="rodape_link" href="."><img class="rodape_imagens" src="./img/icone_whats.png" alt="Icone Whatsapp"></a>
-        <a class="rodape_link" href="."><img class="rodape_imagens" src="./img/icone_insta.png" alt="Icone Instagram"></a>
-        <a class="rodape_link" href="."><img class="rodape_imagens" src="./img/icone_github.png" alt="Icone Github"></a>
-        </div>    
+            <p class="rodape_texto">Fale conosco</p>
+            <a class="rodape_link" href="."><img class="rodape_imagens" src="./img/icone_whats.png"
+                    alt="Icone Whatsapp"></a>
+            <a class="rodape_link" href="."><img class="rodape_imagens" src="./img/icone_insta.png"
+                    alt="Icone Instagram"></a>
+            <a class="rodape_link" href="."><img class="rodape_imagens" src="./img/icone_github.png"
+                    alt="Icone Github"></a>
+        </div>
     </footer>
-    
+
+    <script src="./scripts/index.js"></script>
 </body>
+
 </html>
