@@ -6,10 +6,15 @@
     
 }
 
+.cabecalho_itens {
+    display: flex;
+    align-items: center;
+}
+
 .cabecalho_botao {
     background-color: var(--cor-preto);
     color: var(--cor-branco);
-    padding: 10px 15px;
+    margin: 10px 15px;
     font-size: var(--tamanho-itens);
     font-weight: 500;
     font-family: var(--fonte-titulo);
@@ -22,7 +27,6 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
-    
 }
 
 .cabecalho_botao:hover {
@@ -66,4 +70,13 @@
     font-size: var(--tamanho-itens);
     font-weight: 500;
     font-family: var(--fonte-titulo);
+}
+
+.lista_link {
+    padding: 10px;
+}
+
+#btn_contatos {
+    text-decoration: none;
+    color: var(--cor-branco);
 }
