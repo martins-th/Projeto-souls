@@ -1,13 +1,16 @@
+console.log(document.querySelector('.botao1'));
 function loadComponent(id, path) {
     fetch(path) 
         .then(resposta => resposta.text())
         .then(dados => {
             document.getElementById(id).innerHTML = dados
         })
-        .catch(erro => console.error('Erro ao carregar componente', erro))
+        .catch(erro => console.error('Erro ao carregar componente', erro));
 }
 
-loadComponent ('header_placeholder', 'header.html');
+loadComponent ('header_placeholder', '/paginas/header.html');
+
+
 
 const botao1 = document.getElementById ('btn_cascata1');
 const menu1 = document.getElementById ('menu_lores');
