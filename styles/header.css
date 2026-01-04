@@ -20,7 +20,7 @@
     font-family: var(--fonte-titulo);
 }
 
-.botao1_lista {
+.botao1_lista, .botao2_lista {
     list-style: none;
     padding: 0;
     margin: 10px 15px;
@@ -37,6 +37,10 @@
     background-color: var(--cor-carmesin);
 }
 .botao1_lista.aberto {
+    max-height: 300px;
+}
+
+.botao2_lista.aberto {
     max-height: 300px;
 }
 
