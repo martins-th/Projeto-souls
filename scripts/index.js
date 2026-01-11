@@ -57,4 +57,4 @@ document.addEventListener('click', (event) => {
     }
 })
 
-console.log("quem leu é gay");
+
