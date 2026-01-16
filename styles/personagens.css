@@ -1,0 +1,60 @@
+.apresentacao {
+    background-image: url(../img/personagens/background-personagens.png);
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apresentacao_titulo {
+    font-family: var(--fonte-titulo);
+    font-size: var(--tamanho-titulo);
+    color: var(--cor-branco);
+}
+
+.apresentacao_texto {
+    font-family: var(--fonte-texto);
+    font-size: var(--tamanho-texto);
+    color: var(--cor-branco);
+}
+
+.catalogo {
+    background-color: var(--cor-preto);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    padding: 10px;
+    border: 2px solid white;
+    margin: 10px;
+    text-align: center;
+    height: 300px;
+    width: 200px;
+}
+
+.card img{
+    max-width: 100%;
+    max-height: 200px
+}
+
+.card h3{
+    color: white;
+    font-family: var(--fonte-titulo);
+    font-size: var(--tamanho-titulo);
+    padding: 10px 0;
+}
+
+.card_link{
+    color: white;
+    text-decoration: none;
+    font-family: var(--fonte-texto);
+    font-size: var(--tamanho-texto); 
+}
+
+.card_link:hover {
+    background-color: #421607;
+}

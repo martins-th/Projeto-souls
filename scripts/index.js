@@ -1,3 +1,4 @@
+//criando função pra replicar header e footer
 
 function loadComponent(id, path) {
     return fetch(path) 
@@ -7,6 +8,8 @@ function loadComponent(id, path) {
         })
         .catch(erro => console.error('Erro ao carregar componente', erro));
 };
+
+//função pra menu cascata
 
 function carregaMenu() {
     const botao1=document.getElementById('btn_cascata1');
@@ -30,6 +33,9 @@ loadComponent ('header_placeholder', '/paginas/header.html').then( () => {
 });
 
 loadComponent ('footer_placeholder', '/paginas/footer.html');
+
+
+//comportamento de botão ao interagir com a página para o menu cascata
 
 document.addEventListener('click', (event) => {
     const btn1=document.getElementById('btn_cascata1');
@@ -57,4 +63,37 @@ document.addEventListener('click', (event) => {
     }
 })
 
+//interação com JSON
+//função para puxar os dados do json 
+function carregaDados () {
+    fetch("../personagens.json")
+        .then(resposta => resposta.json())
+        .then(personagens => {
+            const catalogo = document.querySelector("#catalogo_personagens")
+
+            personagens.map(personagem => {
+                const card = document.createElement("div")
+                card.classList.add("card")
+
+                const img = document.createElement("img")
+                img.src = personagem.imagem
+                img.alt = personagem.nome
+
+                const npc = document.createElement("h3")
+                npc.textContent = personagem.nome
+
+                card.appendChild(img)
+                card.appendChild(npc)
+
+                catalogo.appendChild(card)
+            })
+        })
+}
+
+carregaDados()
+//caso de erro de carregamento na imagem, abra o log e veja qual ta sendo a referencia do GET
+//o arquivo json sempre vai informar o diretorio a ser aberto a partir do diretorio do html que o chamar!!!!!!
+
+//Formulação da função da página coringa para história de cada personagem
+//utilização de fetch, urlparams, .get, e mais uns carinhas ai
 

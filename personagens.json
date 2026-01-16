@@ -1,0 +1,119 @@
+[
+    {
+        "imagem": "../img/personagens/solaire.png",
+        "nome": "Solaire of Astora",
+        "história":"../historias/solaire.txt"
+    },
+    {
+        "imagem": "../img/personagens/anastacia.webp",
+        "nome": "Anastacia of Astora"
+    },
+    {
+        "imagem": "../img/personagens/andre.webp",
+        "nome": "Andre of Astora"
+    },
+    {
+        "imagem": "../img/personagens/chester.webp",
+        "nome": "Marvelous Chester"
+    },
+    {
+        "imagem": "../img/personagens/ciaran.webp",
+        "nome": "Ciaran"
+    },
+    {
+        "imagem": "../img/personagens/Crestfall_warrior.jpg",
+        "nome": "Crestfall Warrior"
+    },
+    {
+        "imagem": "../img/personagens/dusk.webp",
+        "nome": "Dusk of Oolacile"
+    },
+    {
+        "imagem": "../img/personagens/eingyi.jpg",
+        "nome": "Eingyi"
+    },
+    {
+        "imagem": "../img/personagens/frampt.webp",
+        "nome": "Kingseeker Frampt"
+    },
+    {
+        "imagem": "../img/personagens/gough.jpg",
+        "nome": "Hawkeye Gough"
+    },
+    {
+        "imagem": "../img/personagens/griggs.webp",
+        "nome": "Griggs of Vinheim"
+    },
+    {
+        "imagem": "../img/personagens/gwyndolin.jpg",
+        "nome": "Dark Sun Gwyndolin"
+    },
+    {
+        "imagem": "../img/personagens/gwynevere.jpg",
+        "nome": "Gwynevere"
+    },
+    {
+        "imagem": "../img/personagens/ingward.jpg",
+        "nome": "Ingwad"
+    },
+    {
+        "imagem": "../img/personagens/kaathe.jpg",
+        "nome": "Darkstalker Kaathe"
+    },
+    {
+        "imagem": "../img/personagens/laurentius.jpg",
+        "nome": "Laurentius"
+    },
+    {
+        "imagem": "../img/personagens/lautrec.jpeg",
+        "nome": "Lautrec"
+    },
+    {
+        "imagem": "../img/personagens/logan.jpg",
+        "nome": "Big Hat Logan"
+    },
+    {
+        "imagem": "../img/personagens/nico.webp",
+        "nome": "Nico of Thorolund"
+    },
+    {
+        "imagem": "../img/personagens/oswald.webp",
+        "nome": "Oswald of Carim"
+    },
+    {
+        "imagem": "../img/personagens/patches.jpg",
+        "nome": "Patches"
+    },
+    {
+        "imagem": "../img/personagens/petrus.webp",
+        "nome": "Petrus of thorolund"
+    },
+    {
+        "imagem": "../img/personagens/priscilla.jpg",
+        "nome": "Priscilla"
+    },
+    {
+        "imagem": "../img/personagens/quelana.webp",
+        "nome": "Quelana of Izalith"
+    },
+    {
+        "imagem": "../img/personagens/rhea.jpg",
+        "nome": "Rhea of Thorolund"
+    },
+    {
+        "imagem": "../img/personagens/rickert.jpg",
+        "nome": "Blacksmith Rickert of Vinheim"
+    },
+    {
+        "imagem": "../img/personagens/shiva.jpg",
+        "nome": "Shiva of the East"
+    },
+    {
+        "imagem": "../img/personagens/siegmeyer.jpg",
+        "nome": "Siegmeyer of Catarina"
+    },
+    {
+        "imagem": "../img/personagens/vince.jpg",
+        "nome": "Vince of Thorolund"
+    }
+]
