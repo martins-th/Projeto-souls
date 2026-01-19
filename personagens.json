@@ -2,118 +2,175 @@
     {
         "imagem": "../img/personagens/solaire.png",
         "nome": "Solaire of Astora",
-        "história":"../historias/solaire.txt"
+        "id":"solaire",
+        "historia":"../historias/solaire.txt"
     },
     {
         "imagem": "../img/personagens/anastacia.webp",
-        "nome": "Anastacia of Astora"
+        "nome": "Anastacia of Astora",
+        "id":"anastacia",
+        "historia":"../historias/solaire.txt"
     },
     {
         "imagem": "../img/personagens/andre.webp",
-        "nome": "Andre of Astora"
+        "nome": "Andre of Astora",
+        "id":"andre",
+        "historia":"../historias/andre.txt"
     },
     {
         "imagem": "../img/personagens/chester.webp",
-        "nome": "Marvelous Chester"
+        "nome": "Marvelous Chester",
+        "id":"chester",
+        "historia":"../historias/chester.txt"
     },
     {
         "imagem": "../img/personagens/ciaran.webp",
-        "nome": "Ciaran"
+        "nome": "Ciaran",
+        "id":"ciaran",
+        "historia":"../historias/ciaran.txt"
     },
     {
         "imagem": "../img/personagens/Crestfall_warrior.jpg",
-        "nome": "Crestfall Warrior"
+        "nome": "Crestfall Warrior",
+        "id":"crestfall",
+        "historia":"../historias/crestfall.txt"
     },
     {
         "imagem": "../img/personagens/dusk.webp",
-        "nome": "Dusk of Oolacile"
+        "nome": "Dusk of Oolacile",
+        "id":"dusk",
+        "historia":"../historias/dusk.txt"
     },
     {
         "imagem": "../img/personagens/eingyi.jpg",
-        "nome": "Eingyi"
+        "nome": "Eingyi",
+        "id":"eingyi",
+        "historia":"../historias/eingyi.txt"
     },
     {
         "imagem": "../img/personagens/frampt.webp",
-        "nome": "Kingseeker Frampt"
+        "nome": "Kingseeker Frampt",
+        "id":"frampt",
+        "historia":"../historias/frampt.txt"
     },
     {
         "imagem": "../img/personagens/gough.jpg",
-        "nome": "Hawkeye Gough"
+        "nome": "Hawkeye Gough",
+        "id":"gough",
+        "historia":"../historias/gough.txt"
     },
     {
         "imagem": "../img/personagens/griggs.webp",
-        "nome": "Griggs of Vinheim"
+        "nome": "Griggs of Vinheim",
+        "id":"griggs",
+        "historia":"../historias/griggs.txt"
     },
     {
         "imagem": "../img/personagens/gwyndolin.jpg",
-        "nome": "Dark Sun Gwyndolin"
+        "nome": "Dark Sun Gwyndolin",
+        "id":"gwyndolin",
+        "historia":"../historias/gwyndolin.txt"
     },
     {
         "imagem": "../img/personagens/gwynevere.jpg",
-        "nome": "Gwynevere"
+        "nome": "Gwynevere",
+        "id":"Gwynevere",
+        "historia":"../historias/Gwynevere.txt"
     },
     {
         "imagem": "../img/personagens/ingward.jpg",
-        "nome": "Ingwad"
+        "nome": "Ingwad",
+        "id":"ingwad",
+        "historia":"../historias/Ingwad.txt"
     },
     {
         "imagem": "../img/personagens/kaathe.jpg",
-        "nome": "Darkstalker Kaathe"
+        "nome": "Darkstalker Kaathe",
+        "id":"kaathe",
+        "historia":"../historias/kaathe.txt"
     },
     {
         "imagem": "../img/personagens/laurentius.jpg",
-        "nome": "Laurentius"
+        "nome": "Laurentius",
+        "id":"Laurentius",
+        "historia":"../historias/Laurentius.txt"
     },
     {
         "imagem": "../img/personagens/lautrec.jpeg",
-        "nome": "Lautrec"
+        "nome": "Lautrec",
+        "id":"Lautrec",
+        "historia":"../historias/Lautrec.txt"
     },
     {
         "imagem": "../img/personagens/logan.jpg",
-        "nome": "Big Hat Logan"
+        "nome": "Big Hat Logan",
+        "id":"logan",
+        "historia":"../historias/logan.txt"
     },
     {
         "imagem": "../img/personagens/nico.webp",
-        "nome": "Nico of Thorolund"
+        "nome": "Nico of Thorolund",
+        "id":"nico",
+        "historia":"../historias/nico.txt"
     },
     {
         "imagem": "../img/personagens/oswald.webp",
-        "nome": "Oswald of Carim"
+        "nome": "Oswald of Carim",
+        "id":"oswald",
+        "historia":"../historias/oswald.txt"
     },
     {
         "imagem": "../img/personagens/patches.jpg",
-        "nome": "Patches"
+        "nome": "Patches",
+        "id":"patches",
+        "historia":"../historias/patches.txt"
     },
     {
         "imagem": "../img/personagens/petrus.webp",
-        "nome": "Petrus of thorolund"
+        "nome": "Petrus of thorolund",
+        "id":"petrus",
+        "historia":"../historias/petrus.txt"
     },
     {
         "imagem": "../img/personagens/priscilla.jpg",
-        "nome": "Priscilla"
+        "nome": "Priscilla",
+        "id":"priscilla",
+        "historia":"../historias/priscilla.txt"
     },
     {
         "imagem": "../img/personagens/quelana.webp",
-        "nome": "Quelana of Izalith"
+        "nome": "Quelana of Izalith",
+        "id":"quelana",
+        "historia":"../historias/quelana.txt"
     },
     {
         "imagem": "../img/personagens/rhea.jpg",
-        "nome": "Rhea of Thorolund"
+        "nome": "Rhea of Thorolund",
+        "id":"rhea",
+        "historia":"../historias/rhea.txt"
     },
     {
         "imagem": "../img/personagens/rickert.jpg",
-        "nome": "Blacksmith Rickert of Vinheim"
+        "nome": "Blacksmith Rickert of Vinheim",
+        "id":"rickert",
+        "historia":"../historias/rickert.txt"
     },
     {
         "imagem": "../img/personagens/shiva.jpg",
-        "nome": "Shiva of the East"
+        "nome": "Shiva of the East",
+        "id":"shiva",
+        "historia":"../historias/shiva.txt"
     },
     {
         "imagem": "../img/personagens/siegmeyer.jpg",
-        "nome": "Siegmeyer of Catarina"
+        "nome": "Siegmeyer of Catarina",
+        "id":"siegmeyer",
+        "historia":"../historias/siegmeyer.txt"
     },
     {
         "imagem": "../img/personagens/vince.jpg",
-        "nome": "Vince of Thorolund"
+        "nome": "Vince of Thorolund",
+        "id":"vince",
+        "historia":"../historias/vince.txt"
     }
 ]

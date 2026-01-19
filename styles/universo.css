@@ -8,6 +8,7 @@
 
 .lore-universo_bloco1{
     background-image: url(../img/universo/background_text.png);
+    background-size: cover;
     object-fit: cover;
     padding: 2em;
 

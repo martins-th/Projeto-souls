@@ -82,8 +82,13 @@ function carregaDados () {
                 const npc = document.createElement("h3")
                 npc.textContent = personagem.nome
 
+                const link = document.createElement("a")
+                link.href = `./individual.html?id=${personagem.id}`
+                link.textContent = "Saiba mais"
+
                 card.appendChild(img)
                 card.appendChild(npc)
+                card.appendChild(link)
 
                 catalogo.appendChild(card)
             })
@@ -93,7 +98,4 @@ function carregaDados () {
 carregaDados()
 //caso de erro de carregamento na imagem, abra o log e veja qual ta sendo a referencia do GET
 //o arquivo json sempre vai informar o diretorio a ser aberto a partir do diretorio do html que o chamar!!!!!!
-
-//Formulação da função da página coringa para história de cada personagem
-//utilização de fetch, urlparams, .get, e mais uns carinhas ai
 

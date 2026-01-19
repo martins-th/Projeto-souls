@@ -32,7 +32,7 @@
     border: 2px solid white;
     margin: 10px;
     text-align: center;
-    height: 300px;
+    height: 350px;
     width: 200px;
 }
 
@@ -48,13 +48,13 @@
     padding: 10px 0;
 }
 
-.card_link{
+.card a{
     color: white;
     text-decoration: none;
     font-family: var(--fonte-texto);
     font-size: var(--tamanho-texto); 
 }
 
-.card_link:hover {
+.card a:hover {
     background-color: #421607;
 }

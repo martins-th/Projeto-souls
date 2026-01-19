@@ -1,0 +1,32 @@
+.container_individual {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../img/universo/background_text.png);
+    background-size: cover;
+    min-height: 100%;
+    
+}
+
+.individual_identificacao {
+    text-align: center;
+}
+
+.identificacao_imagem {
+    padding: 50px;
+    min-width: 400px;
+    max-height: 400px;
+}
+
+.identificacao_nome {
+    font-style: var(--fonte-titulo);
+    font-size: var(--tamanho-titulo);
+    color: var(--cor-preto);
+}
+
+.individual_texto {
+    font-style: var(--fonte-texto);
+    font-size: var(--tamanho-texto);
+    color: var(--cor-preto);
+    padding: 30px;
+}
