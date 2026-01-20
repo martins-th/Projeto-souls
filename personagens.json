@@ -9,7 +9,7 @@
         "imagem": "../img/personagens/anastacia.webp",
         "nome": "Anastacia of Astora",
         "id":"anastacia",
-        "historia":"../historias/solaire.txt"
+        "historia":"../historias/anastacia.txt"
     },
     {
         "imagem": "../img/personagens/andre.webp",
@@ -79,8 +79,8 @@
     },
     {
         "imagem": "../img/personagens/ingward.jpg",
-        "nome": "Ingwad",
-        "id":"ingwad",
+        "nome": "Ingward",
+        "id":"ingward",
         "historia":"../historias/Ingwad.txt"
     },
     {
