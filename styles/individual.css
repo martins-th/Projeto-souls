@@ -19,13 +19,13 @@
 }
 
 .identificacao_nome {
-    font-style: var(--fonte-titulo);
+    font-family: var(--fonte-titulo);
     font-size: var(--tamanho-titulo);
     color: var(--cor-preto);
 }
 
 .individual_texto {
-    font-style: var(--fonte-texto);
+    font-family: var(--fonte-texto);
     font-size: var(--tamanho-texto);
     color: var(--cor-preto);
     padding: 30px;

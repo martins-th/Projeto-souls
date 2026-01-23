@@ -1,0 +1,63 @@
+.apresentacao_curiosidades {
+    height: 100vh;
+    background-image: url(../img/curiosidades/firelink.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.curiosidades_titulo {
+    font-family: var(--fonte-titulo);
+    font-size: var(--tamanho-titulo);
+    color: var(--cor-branco);
+}
+
+.curiosidades_listas {
+    background: #212120;
+    background: linear-gradient(90deg, rgba(33, 33, 32, 1) 30%, rgba(0, 3, 1, 1) 65%);
+}
+
+.titulo_previo {
+    font-family: var(--fonte-titulo);
+    font-size: var(--tamanho-titulo);
+    color: var(--cor-branco);
+    text-align: center;
+    padding: 2em 0;
+}
+
+.lista_iceberg {
+    
+}
+
+.camada_titulo {
+    font-family: var(--fonte-titulo);
+    font-size: var(--tamanho-titulo);
+    color: var(--cor-preto);
+    text-align: center;
+    padding: 2em;
+    background-image: url(../img/curiosidades/rotulo.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.camada_item {
+    display: flex;
+    align-items: center;
+    padding: 1em 2em;
+    gap: 20px;
+}
+
+.camada_item p{
+    font-family: var(--fonte-texto);
+    font-size: var(--tamanho-texto);
+    color: var(--cor-branco);
+    
+    
+}
+
+.camada_item img{
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 60px;
+}
