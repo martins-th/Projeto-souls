@@ -13,7 +13,7 @@
     color: var(--cor-branco);
 }
 
-.curiosidades_listas {
+.curiosidades_principal {
     background: #212120;
     background: linear-gradient(90deg, rgba(33, 33, 32, 1) 30%, rgba(0, 3, 1, 1) 65%);
 }
@@ -26,9 +26,6 @@
     padding: 2em 0;
 }
 
-.lista_iceberg {
-    
-}
 
 .camada_titulo {
     font-family: var(--fonte-titulo);
@@ -52,12 +49,35 @@
     font-family: var(--fonte-texto);
     font-size: var(--tamanho-texto);
     color: var(--cor-branco);
-    
-    
 }
 
 .camada_item img{
     max-width: 150px;
     max-height: 150px;
     border-radius: 60px;
+}
+
+.camada_filosofia {
+    align-items: center;
+    padding: 1em 2em;
+    gap: 20px;
+    font-family: var(--fonte-texto);
+    font-size: var(--tamanho-texto);
+    color: var(--cor-branco);
+}
+
+.camada_criadorTexto{
+    font-family: var(--fonte-texto);
+    font-size: var(--tamanho-texto);
+    color: var(--cor-branco);
+    padding: 1em 2em;
+}
+
+.bloco_imgtxt{
+    display: flex;
+    gap: 20px
+}
+
+.imagem_criador{
+    padding: 1em 2em;
 }

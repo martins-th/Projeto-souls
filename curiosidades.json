@@ -1,98 +1,147 @@
-[
-    {
-        "imagem": "https://p2.trrsf.com/image/fget/cf/1200/1200/middle/images.terra.com/2015/06/30/controlequebradofacebook.jpg",
-        "texto": "Dark Souls é difícil: a fama do jogo vem justamente da sua curva de aprendizado brutal."
-    },
-    {
-        "imagem": "https://i.ytimg.com/vi/-ZGlaAxB7nI/maxresdefault.jpg",
-        "texto": "You Died: a tela de morte virou símbolo da franquia."
-    },
-    {
-        "imagem": "https://i.redd.it/yvjm1dsv4ald1.jpeg",
-        "texto": "Solaire e o Sol: o cavaleiro Solaire é um dos personagens mais icônicos, com seu gesto Praise the Sun."
-    },
-    {
-        "imagem": "https://i.ebayimg.com/images/g/BZUAAOSwKwNmGsAE/s-l400.jpg",
-        "texto": "Firelink Shrine: o hub central que conecta quase todas as áreas do jogo."
-    },
-    {
-        "imagem": "https://soulslore.wdfiles.com/local--resized-images/data:hellkite-dragon/Red_drake_ingame/medium.jpg",
-        "texto": "O dragão sem cauda: cortar a cauda de certos chefes, como o Dragão Vermelho, dá armas únicas."
-    },
-    {
-        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScXxXOnabMUntGF7jrxnYcMhSMQIIE4BNvhQ&s",
-        "texto": "O pacto dos Servos do Caos: desbloqueia a famosa piromancia Great Chaos Fireball."
-    },
-    {
-        "imagem": "https://soulslore.wdfiles.com/local--resized-images/data:valley-of-drakes/image.jpg/medium.jpg",
-        "texto": "O atalho para Blighttown: muitos jogadores descobrem que dá para chegar lá sem passar pelo Vale dos Dragões."
-    },
-    {
-        "imagem": "https://i.ytimg.com/vi/G1CNndttGsE/maxresdefault.jpg",
-        "texto": "O anel do lobo: referência ao cavaleiro Artorias, que só seria explorado no DLC."
-    },
-    {
-        "imagem": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/Boss_0034_Capra%20Demon.jpg",
-        "texto": "Hitboxes estranhos: alguns inimigos têm colisões bugadas, como o Demônio de Capra."
-    },
-    {
-        "imagem": "https://i.ytimg.com/vi/ptBd75EWugA/sddefault.jpg",
-        "texto": "O cemitério inicial: muitos novatos entram lá e são massacrados pelos esqueletos."
-    },
-    {
-        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmxewatCxvaQMzx6H_OJ6xHwUA6vR94Jwhdw&s",
-        "texto": "O dragão do vale: o Dragão Ancião é opcional e muitos nunca o enfrentam."
-    },
-    {
-        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUC1sZcyRRD76PNH5dKAAoFVHWe5ctLyiyxQ&s",
-        "texto": "NPCs podem morrer sozinhos: alguns personagens desaparecem se certas condições não forem cumpridas."
-    },
-    {
-        "imagem": "https://i.redd.it/xzo0fou4b2kd1.gif",
-        "texto": "O chute do parasita: glitch famoso que permite interações bizarras com inimigos."
-    },
-    {
-        "imagem": "https://darksouls-portuguese.wiki.fextralife.com/file/Dark-Souls---Portuguese/Manus.jpg",
-        "texto": "O abismo de Manus: teorias dizem que Manus é o precursor da humanidade corrompida."
-    },
-    {
-        "imagem": "https://preview.redd.it/fafrv26743d81.jpg?width=512&format=pjpg&auto=webp&s=3320ecd4895fb8eb9ee206b70cab32a4746e8a6f",
-        "texto": "O simbolismo do fogo: muitos interpretam o ciclo da chama como metáfora para vícios e repetição histórica."
-    },
-    {
-        "imagem": "https://images.steamusercontent.com/ugc/1847035764736706354/0629E3657CBA5A1545E497F4CBE7E088F88AE8DF/",
-        "texto": "O pacto dos Dragões: pouco usado, mas permite transformar o jogador em um dragão."
-    },
-    {
-        "imagem": "https://upload.wikimedia.org/wikipedia/pt/a/aa/Demons_Souls_capa.png",
-        "texto": "A conexão com Demon's Souls: há debates se os universos são ligados ou apenas espiritualmente semelhantes."
-    },
-    {
-        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTEElmyooSETXg2_YmmUnWffGS1Co5hzil1A&s",
-        "texto": "O verdadeiro papel de Gwyn: alguns fãs acreditam que ele não é herói, mas vilão que prolonga um ciclo decadente."
-    },
-    {
-        "imagem": "https://static1.personalitydatabase.net/2/pdb-images-prod/a3e24344/profile_images/e02b96b586ce4b519c07064b2bf50075.png",
-        "texto": "O enigma de Kaathe: a serpente primordial que tenta manipular o jogador para extinguir a chama."
-    },
-    {
-        "imagem": "https://i.ytimg.com/vi/cIdHiOZBME0/hqdefault.jpg",
-        "texto": "Itens sem uso: como o Pendant, que não tem função clara e virou meme na comunidade."
-    },
-    {
-        "imagem": "https://i.ytimg.com/vi/IzIxk9xt8EQ/hqdefault.jpg",
-        "texto": "O mito do “Anel do Dragão Branco”: suposto item cortado do jogo, que nunca foi confirmado."
-    },
-    {
-        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLIj1EHpyft7cS_rwdWUtbAr-dJo7rrfzYBg&s",
-        "texto": "Áreas removidas: como a suposta “Cidade dos Deuses”, que teria sido planejada mas não incluída."
-    },
-    {
-        "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROKVktlvmT_ObMb_I_8UgmMW4AUE64hP4gKA&s",
-        "texto": "O destino de Solaire: muitos acreditam que ele é consumido pelo sol que tanto venera, virando um Hollow."
-    },
-    {
-        "imagem": "https://i.ytimg.com/vi/KpKvi1aZwJw/maxresdefault.jpg",
-        "texto": "Dark Souls como ciclo eterno: teoria de que não importa a escolha do jogador, tudo se repete infinitamente."
-    }
-]
+{
+    "iceberg": [
+        {
+            "imagem": "https://p2.trrsf.com/image/fget/cf/1200/1200/middle/images.terra.com/2015/06/30/controlequebradofacebook.jpg",
+            "texto": "Dark Souls é difícil: a fama do jogo vem justamente da sua curva de aprendizado brutal."
+        },
+        {
+            "imagem": "https://i.ytimg.com/vi/-ZGlaAxB7nI/maxresdefault.jpg",
+            "texto": "You Died: a tela de morte virou símbolo da franquia."
+        },
+        {
+            "imagem": "https://i.redd.it/yvjm1dsv4ald1.jpeg",
+            "texto": "Solaire e o Sol: o cavaleiro Solaire é um dos personagens mais icônicos, com seu gesto Praise the Sun."
+        },
+        {
+            "imagem": "https://i.ebayimg.com/images/g/BZUAAOSwKwNmGsAE/s-l400.jpg",
+            "texto": "Firelink Shrine: o hub central que conecta quase todas as áreas do jogo."
+        },
+        {
+            "imagem": "https://soulslore.wdfiles.com/local--resized-images/data:hellkite-dragon/Red_drake_ingame/medium.jpg",
+            "texto": "O dragão sem cauda: cortar a cauda de certos chefes, como o Dragão Vermelho, dá armas únicas."
+        },
+        {
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScXxXOnabMUntGF7jrxnYcMhSMQIIE4BNvhQ&s",
+            "texto": "O pacto dos Servos do Caos: desbloqueia a famosa piromancia Great Chaos Fireball."
+        },
+        {
+            "imagem": "https://soulslore.wdfiles.com/local--resized-images/data:valley-of-drakes/image.jpg/medium.jpg",
+            "texto": "O atalho para Blighttown: muitos jogadores descobrem que dá para chegar lá sem passar pelo Vale dos Dragões."
+        },
+        {
+            "imagem": "https://i.ytimg.com/vi/G1CNndttGsE/maxresdefault.jpg",
+            "texto": "O anel do lobo: referência ao cavaleiro Artorias, que só seria explorado no DLC."
+        },
+        {
+            "imagem": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/Boss_0034_Capra%20Demon.jpg",
+            "texto": "Hitboxes estranhos: alguns inimigos têm colisões bugadas, como o Demônio de Capra."
+        },
+        {
+            "imagem": "https://i.ytimg.com/vi/ptBd75EWugA/sddefault.jpg",
+            "texto": "O cemitério inicial: muitos novatos entram lá e são massacrados pelos esqueletos."
+        },
+        {
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmxewatCxvaQMzx6H_OJ6xHwUA6vR94Jwhdw&s",
+            "texto": "O dragão do vale: o Dragão Ancião é opcional e muitos nunca o enfrentam."
+        },
+        {
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUC1sZcyRRD76PNH5dKAAoFVHWe5ctLyiyxQ&s",
+            "texto": "NPCs podem morrer sozinhos: alguns personagens desaparecem se certas condições não forem cumpridas."
+        },
+        {
+            "imagem": "https://i.redd.it/xzo0fou4b2kd1.gif",
+            "texto": "O chute do parasita: glitch famoso que permite interações bizarras com inimigos."
+        },
+        {
+            "imagem": "https://darksouls-portuguese.wiki.fextralife.com/file/Dark-Souls---Portuguese/Manus.jpg",
+            "texto": "O abismo de Manus: teorias dizem que Manus é o precursor da humanidade corrompida."
+        },
+        {
+            "imagem": "https://preview.redd.it/fafrv26743d81.jpg?width=512&format=pjpg&auto=webp&s=3320ecd4895fb8eb9ee206b70cab32a4746e8a6f",
+            "texto": "O simbolismo do fogo: muitos interpretam o ciclo da chama como metáfora para vícios e repetição histórica."
+        },
+        {
+            "imagem": "https://images.steamusercontent.com/ugc/1847035764736706354/0629E3657CBA5A1545E497F4CBE7E088F88AE8DF/",
+            "texto": "O pacto dos Dragões: pouco usado, mas permite transformar o jogador em um dragão."
+        },
+        {
+            "imagem": "https://upload.wikimedia.org/wikipedia/pt/a/aa/Demons_Souls_capa.png",
+            "texto": "A conexão com Demon's Souls: há debates se os universos são ligados ou apenas espiritualmente semelhantes."
+        },
+        {
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTEElmyooSETXg2_YmmUnWffGS1Co5hzil1A&s",
+            "texto": "O verdadeiro papel de Gwyn: alguns fãs acreditam que ele não é herói, mas vilão que prolonga um ciclo decadente."
+        },
+        {
+            "imagem": "https://static1.personalitydatabase.net/2/pdb-images-prod/a3e24344/profile_images/e02b96b586ce4b519c07064b2bf50075.png",
+            "texto": "O enigma de Kaathe: a serpente primordial que tenta manipular o jogador para extinguir a chama."
+        },
+        {
+            "imagem": "https://i.ytimg.com/vi/cIdHiOZBME0/hqdefault.jpg",
+            "texto": "Itens sem uso: como o Pendant, que não tem função clara e virou meme na comunidade."
+        },
+        {
+            "imagem": "https://i.ytimg.com/vi/IzIxk9xt8EQ/hqdefault.jpg",
+            "texto": "O mito do “Anel do Dragão Branco”: suposto item cortado do jogo, que nunca foi confirmado."
+        },
+        {
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLIj1EHpyft7cS_rwdWUtbAr-dJo7rrfzYBg&s",
+            "texto": "Áreas removidas: como a suposta “Cidade dos Deuses”, que teria sido planejada mas não incluída."
+        },
+        {
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROKVktlvmT_ObMb_I_8UgmMW4AUE64hP4gKA&s",
+            "texto": "O destino de Solaire: muitos acreditam que ele é consumido pelo sol que tanto venera, virando um Hollow."
+        },
+        {
+            "imagem": "https://i.ytimg.com/vi/KpKvi1aZwJw/maxresdefault.jpg",
+            "texto": "Dark Souls como ciclo eterno: teoria de que não importa a escolha do jogador, tudo se repete infinitamente."
+        }
+    ],
+    "criador": [
+        {
+            "texto":"../textos/miyazaki.txt"
+        }
+    ],
+    "easterEggs": [
+        {
+            "texto":"Paredes ilusórias: diversas áreas escondem passagens secretas, como em Blighttown e Anor Londo, revelando atalhos, baús e locais como Great Hollow e Ash Lake."
+        },
+        {
+            "texto":"Vagrants: criaturas raras que surgem a partir de itens descartados por outros jogadores online, funcionando como mensagens vivas da comunidade."
+        },
+        {
+            "texto":"Egg Head: ao ser infectado por um parasita em Blighttown, a cabeça do personagem pode se transformar em um ovo gigante, permitindo interações únicas com o Covenant dos Chaos Servants."
+        },
+        {
+            "texto":"Anor Londo e a ilusão: a cidade iluminada é revelada como uma ilusão criada por Gwyndolin após a derrota de Gwynevere, mostrando a decadência real do mundo."
+        },
+        {
+            "texto":"Dragões e restos: ossadas e restos de dragões em locais como Valley of Drakes e Ash Lake remetem à era antiga e à guerra contra os deuses."
+        },
+        {
+            "texto":"Personagens escondidos: NPCs como Havel the Rock estão em locais discretos, como uma torre em Undead Burg, oferecendo equipamentos poderosos e revelando mais sobre a história."
+        }
+    ],
+    "filosofia": [
+        {
+            "titulo": "O Ciclo da Morte e do Retorno:",
+            "texto": "Conta-se que os guerreiros que ousam atravessar portões e ruínas não conhecem a paz da vitória imediata. Cada queda, cada golpe fatal, é apenas um prelúdio para o renascimento. Como cavaleiros amaldiçoados, retornam sempre ao campo de batalha, aprendendo com a dor, moldando sua coragem no cadinho da derrota. Assim, a morte não é fim, mas lição — e o niilismo se torna companheiro silencioso, lembrando que o sentido não é dado pelos deuses, mas forjado pelo próprio guerreiro."
+        },
+        {
+            "titulo":"A Chama e a Escuridão:",
+            "texto":"No coração da lenda, arde a chama primordial, símbolo da glória dos deuses e da Era do Fogo. Mas toda chama é efêmera, e seu destino é apagar-se. O herói, peregrino solitário, deve escolher: prolongar o brilho da chama, mesmo que seja apenas um eco de sua antiga força, ou abraçar a escuridão que inevitavelmente virá. É o dilema eterno dos reinos: preservar o passado ou aceitar o fim de um ciclo."
+        },
+        {
+            "titulo":"O Absurdo da Jornada:",
+            "texto":"Tal como Sísifo empurrando sua pedra, o guerreiro de Lordran enfrenta inimigos colossais e caminhos tortuosos, apenas para ser lançado de volta ao início. O absurdo é a essência da jornada: lutar sem promessa de triunfo, persistir sem certeza de sentido. Mas é na própria persistência que reside a vitória — pois continuar a caminhar, mesmo diante do vazio, é desafiar o destino."
+        },
+        {
+            "titulo":"O Livre-Arbítrio do Peregrino:",
+            "texto":"Embora os deuses e a maldição pareçam ditar o caminho, é o herói quem decide. Cada escolha é ambígua, cada decisão carrega peso. Não há respostas certas, apenas caminhos que se bifurcam na penumbra. E assim, o livre-arbítrio torna-se a arma mais poderosa: a capacidade de escolher, mesmo quando o mundo insiste em repetir seus ciclos."
+        },
+        {
+            "titulo":"Conclusão:",
+            "texto":"Dark Souls não é apenas um jogo, mas uma crônica medieval sobre a condição humana. É a saga de cavaleiros que enfrentam a morte infinita, de reis que se agarram a chamas moribundas, e de peregrinos que desafiam o absurdo. No fim, a verdadeira vitória não está em derrotar dragões ou deuses, mas em persistir diante do vazio, erguendo a espada contra a inevitabilidade da escuridão."
+        }
+    ]
+}
