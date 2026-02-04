@@ -1,12 +1,5 @@
 
-function loadComponent(id, path) {
-    return fetch(path) 
-        .then(resposta => resposta.text())
-        .then(dados => {
-            document.getElementById(id).innerHTML = dados;
-        })
-        .catch(erro => console.error('Erro ao carregar componente', erro));
-};
+
 
 function carregaMenu() {
     const botao1=document.getElementById('btn_cascata1');
@@ -56,5 +49,4 @@ document.addEventListener('click', (event) => {
         }
     }
 })
-
 
