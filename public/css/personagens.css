@@ -1,0 +1,60 @@
+.personagens_capa {
+    background-image: url(https://i.redd.it/h1uqhqnq6fmd1.jpeg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--cor-branco);
+    font-family: var(--fonte-titulo);
+    font-size: var(--tamanho-titulo);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.personagens_tela_principal {
+    background: -webkit-linear-gradient(90deg, #000000,#000040);
+    background: linear-gradient(90deg, #000000,#000040);
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.personagens_conteudo {}
+
+.conteudo_npc {}
+
+.conteudo_titulo {
+    color: var(--cor-branco);
+    text-align: center;
+    padding: 3em 0;
+    font-family: var(--fonte-titulo);
+    font-size: var(--tamanho-titulo);
+}
+
+.cards_container {
+    display: flex;
+}
+
+.card_conteudo {
+    text-align: center;
+    padding: 10px;
+    border-bottom: solid #000000 3px;
+    border-right: solid #000000 3px;
+}
+
+.card_imagem {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.card_nome {
+    color: var(--cor-branco);
+    font-family: var(--fonte-texto);
+    font-size: var(--tamanho-texto);
+    padding: 1em 0;
+}
+
+.personagens_navegacao {
+    color: var(--cor-branco);
+}

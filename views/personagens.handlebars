@@ -1,0 +1,31 @@
+<section class="personagens_capa">
+    <h1>"Se precisar de um escudo, estarei ao seu lado."</h1>
+</section>
+
+<div class="personagens_tela_principal">
+    <div class="personagens_conteudo">
+        <section class="conteudo_npc">
+            <h2 class="conteudo_titulo">NPC's</h2>
+            <div class="cards_container">
+                {{#each personagens_npc}}
+                    <div class="card_conteudo">
+                        <img src={{this.Foto}} alt="{{this.nome}}" class="card_imagem">
+                        <h3 class="card_nome">{{this.nome}}</h3>
+                    </div>
+                {{/each}}
+            </div>
+        </section>
+
+        <section class="conteudo_bosses"></section>
+
+        <section class="conteudo_inimigos"></section>
+    </div>
+    <!--<div class="personagens_navegacao">
+        <ul>
+            <li>
+                <p>bananinha</p>
+            </li>
+        </ul>
+    </div>
+    -->
+</div>

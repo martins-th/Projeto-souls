@@ -1,6 +1,3 @@
-
-
-
 function carregaMenu() {
     const botao1=document.getElementById('btn_cascata1');
     const botao2=document.getElementById('btn_cascata2');

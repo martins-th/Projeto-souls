@@ -1,0 +1,16 @@
+services:
+  db: # Nome do serviço (você escolhe)
+    image: mysql:latest # A imagem e versão que você quer buscar no Docker Hub
+    container_name: mysql_souls # O nome que aparecerá no seu Docker Desktop
+    restart: always # Se o PC reiniciar ou o banco cair, o Docker sobe ele de novo
+    environment:
+      MYSQL_ROOT_PASSWORD: senha # A senha do usuário 'root'
+      MYSQL_DATABASE: souls_db # (Opcional) Já cria um banco de dados vazio ao iniciar
+      MYSQL_ROOT_USERNAME: root
+    ports:
+      - "3306:3306" # Mapeia a porta do seu Windows para o Container
+    volumes:
+      - db_data:/var/lib/mysql # Garante que seus dados não sumam se o container for deletado
+
+volumes:
+  db_data:  # Define onde o Docker vai guardar os arquivos físicos do banco
