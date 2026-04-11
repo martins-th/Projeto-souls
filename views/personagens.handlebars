@@ -16,16 +16,57 @@
             </div>
         </section>
 
-        <section class="conteudo_bosses"></section>
+        <section class="conteudo_bosses">
+            <h2 class="conteudo_titulo">Boss</h2>
+            <div class="cards_container">
+                {{#each personagens_boss}}
+                    <div class="card_conteudo">
+                        <img src={{this.Foto}} alt="{{this.nome}}" class="card_imagem">
+                        <h3 class="card_nome">{{this.nome}}</h3>
+                    </div>
+                {{/each}}
+            </div>
+        </section>
 
-        <section class="conteudo_inimigos"></section>
+        <section class="conteudo_inimigos">
+            <h2 class="conteudo_titulo">Inimigos</h2>
+            <div class="cards_container">
+                {{#each personagens_inimigos}}
+                    <div class="card_conteudo">
+                        <img src={{this.Foto}} alt="{{this.nome}}" class="card_imagem">
+                        <h3 class="card_nome">{{this.nome}}</h3>
+                    </div>
+                {{/each}}
+        </section>
     </div>
-    <!--<div class="personagens_navegacao">
-        <ul>
-            <li>
-                <p>bananinha</p>
-            </li>
-        </ul>
+
+    <div class="personagens_navegacao">
+        <div class="container_navegacao">
+            <details class="filtro">
+                <summary class="filtro_titulo">NPC'S</summary>
+                <ul>
+                    {{#each personagens_npc}}
+                    <li class="item_filtro"><a href="." class="link_filtro">{{this.nome}}</a></li>
+                    {{/each}}
+                </ul>
+            </details>
+            <details class="filtro">
+                <summary class="filtro_titulo">Boss</summary>
+                <ul>
+                    {{#each personagens_boss}}
+                    <li class="item_filtro"><a href="." class="link_filtro">{{this.nome}}</a></li>
+                    {{/each}}
+                </ul>
+            </details>
+            <details class="filtro">
+                <summary class="filtro_titulo">Inimigos</summary>
+                <ul>
+                    {{#each personagens_inimigos}}
+                    <li class="item_filtro"><a href="." class="link_filtro">{{this.nome}}</a></li>
+                    {{/each}}
+                </ul>
+            </details>
+        </div>
     </div>
-    -->
+    
 </div>
