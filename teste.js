@@ -44,11 +44,39 @@ app.get('/personagens', async (req, res) => {
 
     } catch (error) {
         console.error(error);
-        res.status(500).send("Erro ao carregar personagens")
+        res.status(500).send("Erro ao carregar personagens");
     }
 });
 
+//elaborando a rota que será a rota de amostragem da história dos personagens
+//temos que :nome é uma variável para o express (nome que vai ser o do personagem)
+//fizemos uma checagem para ver se o banco de fato escolhe a primeira linha que conseguir sobre o nome que solicitamos
+//se tiver resposta, seremos redirecionados para a página individual e ai ela será preenchida com o conteudo que forma a linha que obtivemos como resposta
+app.get('/personagens/:nome', async (req, res) => {
+    const nomeRecebido = req.params.nome; //aqui temos o armazenamento do nome da requisição (resultado do clique no card)
 
+    //foi necessário aqui usar um join porque estou relacionando a tabela lore_personagens com a 
+    //tabela personagens utilizando um id de uma como chave estrangeira da outra.
+    //Por convenção, utilizamos uma variável para armazenar o comando sql para facilitar a manutenção
+    try {
+        const query = `SELECT personagens.*, lore_personagens.lores 
+        FROM personagens 
+        INNER JOIN lore_personagens 
+        ON personagens.lore = lore_personagens.id
+        WHERE personagens.nome = ?`;
+
+        const [rows] = await db.execute(query, [nomeRecebido]);
+
+        if(rows.length > 0){
+            res.render('individual', {personagens: rows[0]});
+        }else{
+            res.status(404).send("personagem não encontrado");
+        }
+    } catch (error) {
+        console.log("O erro exato é: " + error);
+        res.status(500).send("erro interno");
+    }
+})
 
 app.listen(8081, function () {
     console.log("Server rodando!");

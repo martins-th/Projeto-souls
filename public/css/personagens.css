@@ -13,8 +13,7 @@
 }
 
 .personagens_tela_principal {
-    background: -webkit-linear-gradient(90deg, #000000,#000040);
-    background: linear-gradient(90deg, #000000,#000040);
+    background:radial-gradient(at 71.23868271756542% 64.02136035063948%, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 0) 100%), radial-gradient(at 70.31866964539668% 72.53587536283219%, hsla(253.33333333333334, 84.37500000000001%, 12.549019607843137%, 1) 0%, hsla(253.33333333333334, 84.37500000000001%, 12.549019607843137%, 0) 100%), radial-gradient(at 93.15579023466466% 88.00370981129258%, hsla(253.15068493150685, 78.49462365591397%, 18.23529411764706%, 1) 0%, hsla(253.15068493150685, 78.49462365591397%, 18.23529411764706%, 0) 100%), radial-gradient(at 44.415468078050814% 82.12011607008677%, hsla(253.33333333333334, 84.37500000000001%, 12.549019607843137%, 1) 0%, hsla(253.33333333333334, 84.37500000000001%, 12.549019607843137%, 0) 100%), radial-gradient(at 7.48099369139873% 25.302918707535238%, hsla(253.33333333333334, 84.37500000000001%, 12.549019607843137%, 1) 0%, hsla(253.33333333333334, 84.37500000000001%, 12.549019607843137%, 0) 100%), radial-gradient(at 91.91144252987132% 11.806729671508187%, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 0) 100%), radial-gradient(at 27.66249298185889% 3.065116008157287%, hsla(253.33333333333334, 84.37500000000001%, 12.549019607843137%, 1) 0%, hsla(253.33333333333334, 84.37500000000001%, 12.549019607843137%, 0) 100%), radial-gradient(at 20.878413812473575% 81.10919231188062%, hsla(253.15068493150685, 78.49462365591397%, 18.23529411764706%, 1) 0%, hsla(253.15068493150685, 78.49462365591397%, 18.23529411764706%, 0) 100%), radial-gradient(at 20.206140506923177% 9.431990233985887%, hsla(253.33333333333334, 84.37500000000001%, 12.549019607843137%, 1) 0%, hsla(253.33333333333334, 84.37500000000001%, 12.549019607843137%, 0) 100%), radial-gradient(at 94.81760190514615% 47.07790937072207%, hsla(253.33333333333334, 84.37500000000001%, 12.549019607843137%, 1) 0%, hsla(253.33333333333334, 84.37500000000001%, 12.549019607843137%, 0) 100%), radial-gradient(at 13.991316714400725% 62.436736081663334%, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 0) 100%), radial-gradient(at 26.67357056016413% 27.45124562355511%, hsla(253.33333333333334, 84.37500000000001%, 12.549019607843137%, 1) 0%, hsla(253.33333333333334, 84.37500000000001%, 12.549019607843137%, 0) 100%);
     display: grid;
     grid-template-columns: 80% 20%;
 }
@@ -31,9 +30,11 @@
 .conteudo_titulo {
     color: var(--cor-branco);
     text-align: center;
-    padding: 3em 0;
+    margin: 2em 0;
+    padding: 8px;
     font-family: var(--fonte-titulo);
     font-size: var(--tamanho-titulo);
+    background-color:-webkit-linear-gradient(90deg, #8a8a8a,#050505,#8a8a8a);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #8a8a8a,#050505,#8a8a8a);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             ;
 }
 
 .cards_container {
@@ -47,6 +48,17 @@
     border-right: solid #000000 3px;
     box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.2);
     width: 220px;
+    height: 300px;
+    color: var(--cor-branco);
+}
+
+.card_conteudo:hover {
+    background-color: #0C1B34;
+    color: #C19F38;
+}
+
+.card_link {
+    text-decoration: none;
 }
 
 .card_imagem {
@@ -56,11 +68,10 @@
 }
 
 .card_nome {
-    color: var(--cor-branco);
+    
     font-family: var(--fonte-texto);
     font-size: var(--tamanho-texto);
     padding: 1em 0;
-    
 }
 
 .personagens_navegacao {
@@ -80,6 +91,7 @@
 .filtro_titulo {
     font-family: var(--fonte-titulo);
     font-size: var(--tamanho-titulo);
+    padding-bottom: 5px;
 }
 
 .item_filtro {
@@ -88,7 +100,12 @@
     padding: 10px 5px;
 }
 
+.link_filtro:hover{
+    background-color: var(--cor-carmesin);
+}
+
 .link_filtro {
     text-decoration: none;
     color: var(--cor-branco);
+    padding: 5px;
 }

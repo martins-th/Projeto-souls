@@ -8,10 +8,12 @@
             <h2 class="conteudo_titulo">NPC's</h2>
             <div class="cards_container">
                 {{#each personagens_npc}}
-                    <div class="card_conteudo">
-                        <img src={{this.Foto}} alt="{{this.nome}}" class="card_imagem">
-                        <h3 class="card_nome">{{this.nome}}</h3>
-                    </div>
+                    <a href="/personagens/{{this.nome}}" class="card_link">
+                        <div class="card_conteudo">
+                            <img src={{this.Foto}} alt="{{this.nome}}" class="card_imagem">
+                            <h3 class="card_nome">{{this.nome}}</h3>
+                        </div>
+                    </a>
                 {{/each}}
             </div>
         </section>
@@ -20,10 +22,12 @@
             <h2 class="conteudo_titulo">Boss</h2>
             <div class="cards_container">
                 {{#each personagens_boss}}
-                    <div class="card_conteudo">
-                        <img src={{this.Foto}} alt="{{this.nome}}" class="card_imagem">
-                        <h3 class="card_nome">{{this.nome}}</h3>
-                    </div>
+                    <a href="/personagens/{{this.nome}}" class="card_link">
+                        <div class="card_conteudo">
+                            <img src={{this.Foto}} alt="{{this.nome}}" class="card_imagem">
+                            <h3 class="card_nome">{{this.nome}}</h3>
+                        </div>
+                    </a>
                 {{/each}}
             </div>
         </section>
@@ -32,10 +36,12 @@
             <h2 class="conteudo_titulo">Inimigos</h2>
             <div class="cards_container">
                 {{#each personagens_inimigos}}
-                    <div class="card_conteudo">
-                        <img src={{this.Foto}} alt="{{this.nome}}" class="card_imagem">
-                        <h3 class="card_nome">{{this.nome}}</h3>
-                    </div>
+                    <a href="/personagens/{{this.nome}}" class="card_link">
+                        <div class="card_conteudo">
+                            <img src={{this.Foto}} alt="{{this.nome}}" class="card_imagem">
+                            <h3 class="card_nome">{{this.nome}}</h3>
+                        </div>
+                    </a>
                 {{/each}}
         </section>
     </div>
@@ -46,7 +52,7 @@
                 <summary class="filtro_titulo">NPC'S</summary>
                 <ul>
                     {{#each personagens_npc}}
-                    <li class="item_filtro"><a href="." class="link_filtro">{{this.nome}}</a></li>
+                    <li class="item_filtro"><a href="/personagens/{{this.nome}}" class="link_filtro">{{this.nome}}</a></li>
                     {{/each}}
                 </ul>
             </details>
@@ -54,7 +60,7 @@
                 <summary class="filtro_titulo">Boss</summary>
                 <ul>
                     {{#each personagens_boss}}
-                    <li class="item_filtro"><a href="." class="link_filtro">{{this.nome}}</a></li>
+                    <li class="item_filtro"><a href="/personagens/{{this.nome}}" class="link_filtro">{{this.nome}}</a></li>
                     {{/each}}
                 </ul>
             </details>
@@ -62,7 +68,7 @@
                 <summary class="filtro_titulo">Inimigos</summary>
                 <ul>
                     {{#each personagens_inimigos}}
-                    <li class="item_filtro"><a href="." class="link_filtro">{{this.nome}}</a></li>
+                    <li class="item_filtro"><a href="/personagens/{{this.nome}}" class="link_filtro">{{this.nome}}</a></li>
                     {{/each}}
                 </ul>
             </details>
