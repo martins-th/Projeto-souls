@@ -1,0 +1,37 @@
+<section class="tela_inicial">
+    <img src="https://images3.alphacoders.com/669/669303.png" alt="cavaleiros na bonfire" class="imagem_inicial">
+    <h1 class="titulo_inicial">Lembre-se: tudo o que estou oferecendo é a verdade, nada mais.</h1>
+</section>
+
+<div class="container">
+    <div class="container_camadas">
+        <section class="camadas">
+            {{#each camadas}}
+                <h2 class="camada_titulo">Camada {{@key}}</h2> <!--aqui esse {{@key}} é um identificador das camadas definidas lá no for each-->
+                <ul class="camada_lista">
+                    {{#each this}}
+                        <li class="item_lista">
+                            <img class="item_imagem" src={{this.imagem}} alt={{this.titulo}}>
+                            <h2 class="item_titulo">{{this.titulo}}</h2>
+                        </li>
+                    {{/each}}
+                </ul>
+            {{/each}}
+        </section>
+    </div>
+
+    <div class="container_navegacao">
+        <div class="camadas_navegacao">
+            {{#each camadas}}
+                <details class="navegacao_filtro">
+                    <summary class="filtro_titulo">Camada {{@key}}</summary>
+                    <ul class="filtro_lista">
+                        {{#each this}}
+                            <li class="filtro_item"><a class="item_link" href=".">{{this.titulo}}</a></li>
+                        {{/each}}
+                    </ul>
+                </details>
+            {{/each}}
+        </div>
+    </div>
+</div>
