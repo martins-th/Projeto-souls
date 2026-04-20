@@ -120,7 +120,9 @@ app.get ('/curiosidades', async (req, res) =>{
         //agora tentando fazer rodar sem nenhuma dúvida com a IA
         //por estar usando o hbs, tenho que entregar tudo renderizado especificando a página a ser carregada e as relações que cada item vai ter, então:
         //posso renderizar grupo a grupo especificando laços para cada section que eu fizer no html:
+       
         //res.render('curiosidades', {curiosidades_c1: camadas[1], curiosidades_c2: camadas[2], curiosidades_c3: camadas[3], curiosidades_c4: camadas[4], curiosidades_c5: camadas[5], curiosidades_c6: camadas[6]});
+        
         //ou renderizar tudo de uma só vez e conseguir escrever somente uma section no html deixando menos poluido ainda
         //já que tudo tá armazenado na const camadas, preciso somente renderizar isso e depois criar a estrutura html pra poder repetir
         res.render('curiosidades', {camadas});

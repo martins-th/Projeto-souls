@@ -1,0 +1,101 @@
+.tela_inicial {
+    max-width: 100vw;
+    height: 90vh;
+    background-image: url(https://images3.alphacoders.com/669/669303.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.titulo_inicial {
+    color: var(--cor-branco);
+    font-family: var(--fonte-titulo);
+    font-size: var(--tamanho-titulo);
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    background: linear-gradient(0deg, #000000,#0f0f0f,#0c2049,#0a368c,#006ce0);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    grid-template-columns: 80% 20%;
+    justify-content: space-between;
+}
+
+.camadas {
+    padding: 10px;
+    width: 80vw;
+}
+
+.camada_titulo {
+    padding: 10px;
+    text-align: center;
+    margin: 10px 0;
+    font-family: var(--fonte-titulo);
+    font-size: var(--tamanho-titulo);
+    color: var(--cor-branco);
+    background: -webkit-linear-gradient(90deg, #808080,#030303,#808080);
+}
+
+.item_lista {
+    display: flex;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 3px solid #000000;
+    box-shadow: 10px 10px 2px rgba(0, 0, 0, 0.2);
+    border-bottom: 3px solid #000000;
+    padding: 10px;
+    margin: 10px 0;
+    align-items: center;
+}
+
+.item_lista:hover {
+    background-color: var(--cor-carmesin);
+}
+
+.item_imagem {
+    width: 150px;
+    height: 150px;
+}
+
+.item_titulo {
+    color: var(--cor-branco);
+    text-align: center;
+    font-size: var(--tamanho-titulo);
+    font-family: var(--fonte-titulo);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container_navegacao {
+    padding: 20px;
+}
+
+.camadas_navegacao {
+    position: sticky;
+    top: 20px;
+    color: var(--cor-branco);
+    padding-right: 3em;
+}
+
+.filtro_titulo {
+    font-family: var(--fonte-titulo);
+    font-size: var(--tamanho-titulo);
+}
+
+.filtro_item {
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.filtro_item:hover {
+    background-color: var(--cor-carmesin);
+}
+
+.item_link {
+    text-decoration: none;
+    color: var(--cor-branco);
+}
