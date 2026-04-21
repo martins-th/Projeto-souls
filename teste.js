@@ -17,9 +17,27 @@ app.engine('handlebars', engine({ defaultLayout: 'main' }))
 app.set('view engine', 'handlebars')
 
 //rotas
-app.get('/universo', function (req, res) {
-    res.render('universo');
-});
+app.get('/universo', async (req, res) => {
+    try {
+        //fazemos a verificação com  o banco de dados
+        const [informacoesDoBanco] = await db.execute ('SELECT * FROM universo ORDER BY id ASC');
+        //agora seguimos montando a lógica do objeto de arrays
+        const historias = {};
+        //como o informacoesDoBanco vai me retornar um array de strings, vou ter que percorrer ele e organizar
+        //seguindo a lógica feita nas curiosidades, criamos um array para cada indice das informações do banco e fazemos um push dessas informações pro array criado.
+        informacoesDoBanco.forEach(capitulo => {
+            if(!historias[capitulo.id]) {
+                historias[capitulo.id] = []
+            }
+            historias[capitulo.id].push(capitulo);
+        })
+        res.render('universo', {historias});
+    } catch(error) {
+        console.error(error);
+        res.status(500).send('erro ao econtrar historias');
+    }
+
+})
 
 app.get('/', function (req, res) {
     res.render('home')
