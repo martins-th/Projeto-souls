@@ -99,3 +99,7 @@
     text-decoration: none;
     color: var(--cor-branco);
 }
+
+.curiosidade_link {
+    text-decoration: none;
+}

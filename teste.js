@@ -150,6 +150,33 @@ app.get ('/curiosidades', async (req, res) =>{
     }
 })
 
+
+//seguindo a mesma lógica da consulta de personagens, teremos o :topico como o item que terá seu titulo puxado para que preencha o texto na sua página individual
+
+app.get('/curiosidades/:topico', async (req, res) => {
+    const topicoClicado = req.params.topico; //o parametro de requisição vai ser obtido assim que clicado
+    //somente depois de receber, o código busca as informações
+
+    try {
+        const comandoSql = `SELECT * FROM curiosidades WHERE curiosidades.titulo = ?`;
+
+        const [rows] = await db.execute(comandoSql, [topicoClicado]);
+
+        if(rows.length >0){
+            res.render('topico', {topicos: rows[0]});
+        }else{
+            res.status(404).send("topico não encontrado");
+        }
+    } catch (error) {
+        console.log("O erro exato é: " + error);
+        res.status(500).send("erro interno");
+    }
+})
+
+app.get('/sobre', function (req, res) {
+    res.render('sobre');
+})
+
 app.listen(8081, function () {
     console.log("Server rodando!");
 })

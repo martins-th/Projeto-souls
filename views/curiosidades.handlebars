@@ -9,10 +9,12 @@
                 <h2 class="camada_titulo">Camada {{@key}}</h2> <!--aqui esse {{@key}} é um identificador das camadas definidas lá no for each-->
                 <ul class="camada_lista">
                     {{#each this}}
-                        <li class="item_lista">
-                            <img class="item_imagem" src={{this.imagem}} alt={{this.titulo}}>
-                            <h2 class="item_titulo">{{this.titulo}}</h2>
-                        </li>
+                        <a class="curiosidade_link" href="/curiosidades/{{this.titulo}}">
+                            <li class="item_lista">
+                                <img class="item_imagem" src={{this.imagem}} alt={{this.titulo}}>
+                                <h2 class="item_titulo">{{this.titulo}}</h2>
+                            </li>
+                        </a>
                     {{/each}}
                 </ul>
             {{/each}}
@@ -26,7 +28,7 @@
                     <summary class="filtro_titulo">Camada {{@key}}</summary>
                     <ul class="filtro_lista">
                         {{#each this}}
-                            <li class="filtro_item"><a class="item_link" href=".">{{this.titulo}}</a></li>
+                            <li class="filtro_item"><a class="item_link" href="/curiosidades/{{this.titulo}}">{{this.titulo}}</a></li>
                         {{/each}}
                     </ul>
                 </details>
