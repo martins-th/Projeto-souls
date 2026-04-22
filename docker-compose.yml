@@ -10,7 +10,5 @@ services:
     ports:
       - "3306:3306" # Mapeia a porta do seu Windows para o Container
     volumes:
-      - db_data:/var/lib/mysql # Garante que seus dados não sumam se o container for deletado
-
-volumes:
-  db_data:  # Define onde o Docker vai guardar os arquivos físicos do banco
+      - ./mysql_data:/var/lib/mysql # Garante que seus dados não sumam se o container for deletado
+      - ./sql:/docker-entrypoint-initdb.d
